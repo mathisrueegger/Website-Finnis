@@ -1,28 +1,47 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Finnis - Die fiktive Stadt</title>
-    <style>
-        /* Allgemeines Styling */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f5faff;
-            color: #333;
-        }
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Finnis - Die fiktive Stadt</title>
+   <link rel="stylesheet" href="styles.css">
+   <script defer src="script.js"></script>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
 
-        /* Navigation */
-        header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            background: #004080;
-            padding: 15px 20px;
-            position: fixed;
-            width: 100%;
-            top: 0;
-            left: 0;
-        }
+   <!-- Navigation -->
+   <header>
+       <div class="logo">
+           <a href="/" data-link>
+               <img src="logo.png" alt="Logo">
+           </a>
+       </div>
+       <nav>
+           <ul>
+               <li><a href="/sehenwuerdigkeiten" data-link>Sehenswürdigkeiten</a></li>
+               <li><a href="/kultur" data-link>Kultur</a></li>
+               <li><a href="/kontakt" data-link>Kontakt</a></li>
+           </ul>
+       </nav>
+   </header>
+
+   <!-- Hauptinhalt -->
+   <main id="app">
+       <section id="home" class="page">
+           <div class="hero-content">
+               <h1>Willkommen in Finnis</h1>
+               <p>Entdecke eine Stadt voller Kultur, Architektur und Leben</p>
+               <button onclick="navigateTo('/sehenwuerdigkeiten')">Erkunde die Stadt</button>
+           </div>
+       </section>
+   </main>
+
+   <!-- Footer -->
+   <footer>
+       &copy; 2025 Finnis - Alle Rechte vorbehalten.
+   </footer>
+
+</body>
+</html
