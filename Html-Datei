@@ -1,47 +1,69 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Finnis - Die fiktive Stadt</title>
-   <link rel="stylesheet" href="styles.css">
-   <script defer src="script.js"></script>
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finnis - Die fiktive Stadt</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Finnis Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home" class="nav-link">Startseite</a></li>
+                <li><a href="#sehenwuerdigkeiten" class="nav-link">Sehenswürdigkeiten</a></li>
+                <li><a href="#kultur" class="nav-link">Kultur</a></li>
+                <li><a href="#kontakt" class="nav-link">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
 
-   <!-- Navigation -->
-   <header>
-       <div class="logo">
-           <a href="/" data-link>
-               <img src="logo.png" alt="Logo">
-           </a>
-       </div>
-       <nav>
-           <ul>
-               <li><a href="/sehenwuerdigkeiten" data-link>Sehenswürdigkeiten</a></li>
-               <li><a href="/kultur" data-link>Kultur</a></li>
-               <li><a href="/kontakt" data-link>Kontakt</a></li>
-           </ul>
-       </nav>
-   </header>
+    <!-- Startseite (Hero Section) -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Willkommen in Finnis</h1>
+            <p>Eine futuristische Stadt mit einer einzigartigen Mischung aus Tradition und Innovation.</p>
+            <a href="#sehenwuerdigkeiten" class="cta-btn">Entdecke mehr</a>
+        </div>
+    </section>
 
-   <!-- Hauptinhalt -->
-   <main id="app">
-       <section id="home" class="page">
-           <div class="hero-content">
-               <h1>Willkommen in Finnis</h1>
-               <p>Entdecke eine Stadt voller Kultur, Architektur und Leben</p>
-               <button onclick="navigateTo('/sehenwuerdigkeiten')">Erkunde die Stadt</button>
-           </div>
-       </section>
-   </main>
+    <!-- Sehenswürdigkeiten -->
+    <section id="sehenwuerdigkeiten" class="content-section">
+        <h2>Sehenswürdigkeiten</h2>
+        <div class="image-gallery">
+            <div class="image-item"><img src="sehenwuerdigkeiten1.jpg" alt="Sehenswürdigkeit 1"></div>
+            <div class="image-item"><img src="sehenwuerdigkeiten2.jpg" alt="Sehenswürdigkeit 2"></div>
+            <div class="image-item"><img src="sehenwuerdigkeiten3.jpg" alt="Sehenswürdigkeit 3"></div>
+        </div>
+    </section>
 
-   <!-- Footer -->
-   <footer>
-       &copy; 2025 Finnis - Alle Rechte vorbehalten.
-   </footer>
+    <!-- Kultur -->
+    <section id="kultur" class="content-section">
+        <h2>Kultur</h2>
+        <p>Erlebe die Kunst und die Traditionen, die Finnis zu einem einzigartigen Ort machen.</p>
+    </section>
 
+    <!-- Kontakt -->
+    <section id="kontakt" class="content-section">
+        <h2>Kontakt</h2>
+        <form>
+            <input type="text" placeholder="Dein Name" required>
+            <input type="email" placeholder="Deine E-Mail" required>
+            <textarea placeholder="Deine Nachricht" required></textarea>
+            <button type="submit">Absenden</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Finnis. Alle Rechte vorbehalten.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
-</html
+</html>
