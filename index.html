@@ -1,69 +1,73 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Finnis - Die fiktive Stadt</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Finnis – Die Stadt der Zukunft</title>
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="style.css">
+   <script defer src="script.js"></script>
 </head>
 <body>
-    <!-- Header -->
-    <header>
-        <div class="logo">
-            <img src="logo.png" alt="Finnis Logo">
-        </div>
-        <nav>
-            <ul>
-                <li><a href="#home" class="nav-link">Startseite</a></li>
-                <li><a href="#sehenwuerdigkeiten" class="nav-link">Sehenswürdigkeiten</a></li>
-                <li><a href="#kultur" class="nav-link">Kultur</a></li>
-                <li><a href="#kontakt" class="nav-link">Kontakt</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <!-- Startseite (Hero Section) -->
-    <section id="home" class="hero">
-        <div class="hero-content">
-            <h1>Willkommen in Finnis</h1>
-            <p>Eine futuristische Stadt mit einer einzigartigen Mischung aus Tradition und Innovation.</p>
-            <a href="#sehenwuerdigkeiten" class="cta-btn">Entdecke mehr</a>
-        </div>
-    </section>
+   <header>
+      <div class="logo">
+         <a href="#home"><img src="logo.png" alt="Finnis Logo"></a>
+      </div>
+      <nav>
+         <ul class="nav-links">
+            <li><a href="#sehenwuerdigkeiten">Sehenswürdigkeiten</a></li>
+            <li><a href="#kultur">Kultur</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#kontakt">Kontakt</a></li>
+         </ul>
+         <div class="burger-menu">&#9776;</div>
+      </nav>
+   </header>
 
-    <!-- Sehenswürdigkeiten -->
-    <section id="sehenwuerdigkeiten" class="content-section">
-        <h2>Sehenswürdigkeiten</h2>
-        <div class="image-gallery">
-            <div class="image-item"><img src="sehenwuerdigkeiten1.jpg" alt="Sehenswürdigkeit 1"></div>
-            <div class="image-item"><img src="sehenwuerdigkeiten2.jpg" alt="Sehenswürdigkeit 2"></div>
-            <div class="image-item"><img src="sehenwuerdigkeiten3.jpg" alt="Sehenswürdigkeit 3"></div>
-        </div>
-    </section>
+   <section id="home" class="hero">
+      <div class="hero-content">
+         <h1>Willkommen in Finnis</h1>
+         <p>Die Stadt, in der Geschichte auf Innovation trifft.</p>
+         <a href="#sehenwuerdigkeiten" class="cta-btn">Entdecke Finnis</a>
+      </div>
+   </section>
 
-    <!-- Kultur -->
-    <section id="kultur" class="content-section">
-        <h2>Kultur</h2>
-        <p>Erlebe die Kunst und die Traditionen, die Finnis zu einem einzigartigen Ort machen.</p>
-    </section>
+   <section id="sehenwuerdigkeiten" class="content-section">
+      <h2>Sehenswürdigkeiten</h2>
+      <div class="gallery">
+         <img src="sehenwuerdigkeiten1.jpg" alt="Ort 1">
+         <img src="sehenwuerdigkeiten2.jpg" alt="Ort 2">
+         <img src="sehenwuerdigkeiten3.jpg" alt="Ort 3">
+      </div>
+   </section>
 
-    <!-- Kontakt -->
-    <section id="kontakt" class="content-section">
-        <h2>Kontakt</h2>
-        <form>
-            <input type="text" placeholder="Dein Name" required>
-            <input type="email" placeholder="Deine E-Mail" required>
-            <textarea placeholder="Deine Nachricht" required></textarea>
-            <button type="submit">Absenden</button>
-        </form>
-    </section>
+   <section id="kultur" class="content-section">
+      <h2>Kultur</h2>
+      <p>Entdecke Museen, Festivals und historische Stätten.</p>
+   </section>
 
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2025 Finnis. Alle Rechte vorbehalten.</p>
-    </footer>
+   <section id="events" class="content-section">
+      <h2>Aktuelle Events</h2>
+      <ul class="event-list">
+         <li><strong>Stadtfest Finnis</strong> – 15. August</li>
+         <li><strong>Musikfestival</strong> – 22. September</li>
+      </ul>
+   </section>
 
-    <script src="script.js"></script>
+   <section id="kontakt" class="content-section">
+      <h2>Kontakt</h2>
+      <form>
+         <input type="text" placeholder="Dein Name" required>
+         <input type="email" placeholder="Deine E-Mail" required>
+         <textarea placeholder="Deine Nachricht" required></textarea>
+         <button type="submit">Absenden</button>
+      </form>
+   </section>
+
+   <footer>
+      <p>&copy; 2025 Finnis. Alle Rechte vorbehalten.</p>
+   </footer>
+
 </body>
 </html>
