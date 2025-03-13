@@ -248,3 +248,23 @@ footer {
 .gallery div:hover img {
    transform: scale(1.1);
 }
+.gallery {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 30px;
+   justify-content: center;
+   padding: 20px;
+}
+.gallery h3 {
+   margin: 15px 0 10px;
+   font-size: 1.3rem;
+   color: #004080;
+   text-align: center;
+}
+
+.gallery p {
+   margin: 0 15px 20px;
+   font-size: 0.95rem;
+   color: #666;
+   text-align: center;
+}
