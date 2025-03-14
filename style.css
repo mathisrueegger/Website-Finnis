@@ -286,3 +286,9 @@ h1, h2, h3, p, ul, li {
 .hero-content h1, .hero-content p, .gallery h3, .gallery p, form, footer p {
    padding-left: 0;
 }
+
+.logo img {
+    width: 150px;
+    height: auto;
+    margin-right: 20px;
+}
