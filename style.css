@@ -25,14 +25,16 @@ body {
 }
 
 #kultur .cta-btn {
-    display: inline-block;
-    background-color: #004080;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-weight: bold;
-    transition: background-color 0.3s ease-in-out;
+   display: block;
+   width: fit-content;
+   margin: 20px auto 0;
+   background-color: #004080;
+   color: white;
+   padding: 10px 20px;
+   border-radius: 5px;
+   text-decoration: none;
+   font-weight: bold;
+   transition: background-color 0.3s ease-in-out;
 }
 
 #kultur .cta-btn:hover {
@@ -60,14 +62,16 @@ body {
 }
 
 #events .cta-btn {
-    display: inline-block;
-    background-color: #004080;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-weight: bold;
-    transition: background-color 0.3s ease-in-out;
+   display: block;
+   width: fit-content;
+   margin: 20px auto 0;
+   background-color: #004080;
+   color: white;
+   padding: 10px 20px;
+   border-radius: 5px;
+   text-decoration: none;
+   font-weight: bold;
+   transition: background-color 0.3s ease-in-out;
 }
 
 #events .cta-btn:hover {
