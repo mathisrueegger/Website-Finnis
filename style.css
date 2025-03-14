@@ -332,3 +332,11 @@ h1, h2, h3, p, ul, li {
 .event-item p strong {
     color: #004080;
 }
+
+#events {
+   margin-bottom: 50px;
+}
+
+#kultur {
+   margin-bottom: 50px;
+}
