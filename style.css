@@ -334,9 +334,9 @@ h1, h2, h3, p, ul, li {
 }
 
 #events {
-   margin-bottom: 50px;
+   margin-bottom: 50px !important;
 }
 
 #kultur {
-   margin-bottom: 50px;
+   margin-bottom: 100px !important;
 }
