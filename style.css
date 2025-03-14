@@ -352,3 +352,37 @@ h1, h2, h3, p, ul, li {
     font-size: 1.5rem;
     text-align: center;
 }
+
+#kultur {
+    background: #f9f9f9;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#kultur h2 {
+    font-size: 2rem;
+    color: #004080;
+    margin-bottom: 20px;
+}
+
+#kultur p {
+    font-size: 1.1rem;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto 30px;
+}
+
+#kultur .cta-btn {
+    display: inline-block;
+    background-color: #004080;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#kultur .cta-btn:hover {
+    background-color: #003060;
+}
