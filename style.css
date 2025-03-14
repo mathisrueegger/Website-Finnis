@@ -39,6 +39,41 @@ body {
     background-color: #003060;
 }
 
+/* Events-Sektion */
+#events {
+    background: #f0f8ff; /* Heller blauer Hintergrund */
+    padding: 60px 20px;
+    text-align: left; /* Text linksbündig ausrichten */
+}
+
+#events h2 {
+    font-size: 2rem;
+    color: #004080;
+    margin-bottom: 20px;
+}
+
+#events p {
+    font-size: 1.1rem;
+    color: #333;
+    max-width: 800px;
+    margin: 0 0 30px; /* Text am linken Bildrand */
+}
+
+#events .cta-btn {
+    display: inline-block;
+    background-color: #004080;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#events .cta-btn:hover {
+    background-color: #003060;
+}
+
 header {
    display: flex;
    justify-content: space-between;
