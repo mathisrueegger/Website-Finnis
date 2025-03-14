@@ -99,6 +99,7 @@ form {
    flex-direction: column;
    max-width: 400px;
    margin: auto;
+   margin-bottom: 40px;
 }
 
 form input, form textarea {
@@ -291,6 +292,3 @@ h1, h2, h3, p, ul, li {
    padding-left: 0;
 }
 
-form {
-    margin-bottom: 30px;
-}
