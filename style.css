@@ -278,3 +278,11 @@ footer {
 .content-section {
    padding-top: 80px; 
 }
+
+h1, h2, h3, p, ul, li {
+   padding-left: 40px;
+}
+
+.hero-content h1, .hero-content p, .gallery h3, .gallery p, form, footer p {
+   padding-left: 0;
+}
