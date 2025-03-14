@@ -296,3 +296,39 @@ h1, h2, h3, p, ul, li {
 .abstand {
    height: 100px;
 }
+
+.event-list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.event-item {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.event-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.event-item h3 {
+    color: #004080;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+.event-item p {
+    margin: 5px 0;
+    color: #333;
+    font-size: 1rem;
+}
+
+.event-item p strong {
+    color: #004080;
+}
