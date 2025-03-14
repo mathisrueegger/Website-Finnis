@@ -8,7 +8,7 @@ body {
 #kultur {
     background: #f9f9f9;
     padding: 60px 20px;
-    text-align: center;
+    text-align: left;
 }
 
 #kultur h2 {
@@ -21,7 +21,7 @@ body {
     font-size: 1.1rem;
     color: #333;
     max-width: 800px;
-    margin: 0 auto 30px;
+    margin: 0 0 30px;
 }
 
 #kultur .cta-btn {
