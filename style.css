@@ -41,9 +41,9 @@ body {
 
 /* Events-Sektion */
 #events {
-    background: #f0f8ff; /* Heller blauer Hintergrund */
+    background: #f0f8ff; 
     padding: 60px 20px;
-    text-align: left; /* Text linksbündig ausrichten */
+    text-align: left;
 }
 
 #events h2 {
@@ -56,7 +56,7 @@ body {
     font-size: 1.1rem;
     color: #333;
     max-width: 800px;
-    margin: 0 0 30px; /* Text am linken Bildrand */
+    margin: 0 0 30px;
 }
 
 #events .cta-btn {
