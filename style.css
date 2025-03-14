@@ -78,6 +78,12 @@ body {
     background-color: #003060;
 }
 
+#sehenswuerdigkeiten h2 {
+    font-size: 2rem;
+    color: #004080;
+    margin-bottom: 20px;
+}
+
 header {
    display: flex;
    justify-content: space-between;
