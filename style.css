@@ -19,7 +19,7 @@ header {
    backdrop-filter: blur(10px);
    z-index: 1000;
    height: 50px;
-   overflow: hidden;
+   box-sizing: border-box;
 }
 
 .logo img {
