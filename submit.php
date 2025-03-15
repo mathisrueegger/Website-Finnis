@@ -1,1 +1,3 @@
-speichert formulardaten
+<?php
+echo "PHP funktioniert!";
+?>
