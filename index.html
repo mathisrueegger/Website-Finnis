@@ -73,12 +73,12 @@
       <a href="events.html" class="cta-btn">Alle Events anzeigen</a>
    </section>
 
-   <section id="kontakt" class="content-section">
+  <section id="kontakt" class="content-section">
       <h2>Kontakt</h2>
-      <form>
-         <input type="text" placeholder="Dein Name" required>
-         <input type="email" placeholder="Deine E-Mail" required>
-         <textarea placeholder="Deine Nachricht" required></textarea>
+      <form action="submit.php" method="post">
+         <input type="text" name="name" placeholder="Dein Name" required>
+         <input type="email" name="email" placeholder="Deine E-Mail" required>
+         <textarea name="message" placeholder="Deine Nachricht" required></textarea>
          <button type="submit">Absenden</button>
       </form>
    </section>
