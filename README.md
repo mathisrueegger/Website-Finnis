@@ -18,4 +18,5 @@ Finnis ist eine fiktive Stadt, für die wir eine Website mit Bildern, Videos, Li
 Mathis, Finn, Thierry
 
 🥇 Der Link zur Homepage:
+
 https://mathisrueegger.github.io/Website-Finnis/
