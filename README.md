@@ -20,3 +20,7 @@ Mathis, Finn, Thierry
 🥇 Der Link zur Homepage:
 
 https://mathisrueegger.github.io/Website-Finnis/
+
+🥸 Für Homepage mit (funktionierendem) Kontaktformular/ ohne Werbung:
+
+Lade alle Codes als ZIP-Datei herunter und öffne MAMP, Datenbank und php-myadmin.
